@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Game Time</title>
+	<link href='https://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<header>
+		<img src="http://advisoranalyst.advisoranalystgr.netdna-cdn.com/wp-content/uploads/2014/05/thumb_6917_rockpaperscissors.jpg">
+	</header>
+	<div class="container">
+		<h1>Let's Play! Enter Your Move!</h1>
+		<input id="userChoice">
+		<button onclick="go()" id="runGame">Run!</button>
+		<p id="computerChoice"></p>
+		<p id="answer"></p>
+	<div class="scorebox">
+		<table>
+			<tr>
+				<td><label>My Score</label></td>
+				<td><label>Computer Score</label></td>
+			</tr>
+			<tr>
+				<td><p id="userScore"></p></td>
+				<td><p id="compsScore"></p></td>
+			</tr>
+		</table>
+	</div>
+	</div>
+
+	<script src="script.js" type="text/javascript"></script>
+	</body>
+</html>

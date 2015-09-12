@@ -1,0 +1,26 @@
+body {font-family: 'Poiret One', cursive;}
+
+.container {width: 600px;
+            height: 350px;
+            text-align: center;
+            background-color:#ECF9FF;
+            border-radius: 10px;
+            margin: 20px auto;
+            padding-top: 0px;
+            border:2px solid black;}
+
+.container h1 {margin-top: 0px; padding-top: 10px;}
+
+.scorebox label {border-bottom: 1px solid black;}
+
+.scorebox {font-family: sans-serif;}
+
+.scorebox table {margin: auto;}
+
+.scorebox td {padding-right: 8px;}
+
+header {text-align: center; border-bottom: 1px solid black;}
+
+header img {height: 150px;}
+
+#userScore, #compsScore {font-size: 30px; font-weight: bold;}
